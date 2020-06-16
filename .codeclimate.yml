@@ -1,0 +1,13 @@
+version: "2"
+
+plugins:
+  brakeman:
+    enabled: true
+  bundler-audit:
+    enabled: true
+  duplication:
+    enabled: true
+  fixme:
+    enabled: true
+  reek:
+    enabled: true
